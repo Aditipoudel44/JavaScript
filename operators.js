@@ -7,13 +7,8 @@ console.log("Multiplication:", num1 * num2);
 console.log("Division:", num1 / num2);
 
 //Question no:2
-let num = 8;
-// Check if the number is even or odd using the modulus (%) operator
-if (num % 2 === 0) {
-    console.log(num + " is an Even number");
-} else {
-    console.log(num + " is an Odd number");
-}
+let num= 8;
+console.log(num % 2 === 0? "even":"odd");
 
 //Question no:3
 // Check if 10 is greater than 5
@@ -41,7 +36,7 @@ if (marks >= 40) {
 }
 
 //Question no:5
-let number = -5;
+let numCheck= -3;
 // Syntax: condition ? valueIfTrue : valueIfFalse
 let result = (num >= 0) ? "Positive" : "Negative";
 console.log(num + " is " + result);
