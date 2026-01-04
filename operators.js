@@ -36,9 +36,9 @@ if (marks >= 40) {
 }
 
 //Question no:5
-let numCheck= -3;
+let numCheck = 8;
 // Syntax: condition ? valueIfTrue : valueIfFalse
-let result = (num >= 0) ? "Positive" : "Negative";
-console.log(num + " is " + result);
+let result = (numCheck >= 0) ? "Positive" : "Negative";
+console.log(numCheck + " is " + result);
 
 
